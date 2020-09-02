@@ -1,0 +1,8 @@
+[~]$
+^etm.*\.tar\.gz$
+^Makefile$
+^build$
+\.log$
+\.aux$
+\.tex$
+^etmCIF_tutorial-.\.pdf$
