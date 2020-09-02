@@ -48,6 +48,12 @@ start = NULL, id = NULL, keep)
   Therefore, the multistate model will have initial
   states, into which no transition are possible. For these, NAs are
   allowed in \code{time} and \code{status}.
+
+  Recent versions of R have changed the \code{data.frame} function,
+  where the default for the \code{stringsAsFactors}
+  argument from \code{TRUE} to \code{FALSE}. \code{etm} currently
+  depends on the states being factors, so that the user should use
+  \code{data.frame(..., stringsAsFactors=TRUE)}.
 }
 \value{
   The function returns a data.frame suitable for using the \code{etm}
@@ -80,7 +86,7 @@ cova <- rbinom(6, 1, 0.5)
 
 dat <- data.frame(tdisease, tdeath,
                   stat.disease, stat.death,
-                  cova)
+                  cova, stringsAsFactors = TRUE)
 
 ## Possible transitions
 tra <- matrix(FALSE, 3, 3)
