@@ -1,4 +1,8 @@
 *~
 *.o
+*.so
+src/symbols.rds
 ..Rcheck
 .Rhistory
+etm.Rcheck
+etm_*.tar.gz
