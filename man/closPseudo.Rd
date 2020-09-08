@@ -87,7 +87,7 @@ closPseudo(data, state.names, tra, cens.name, s = 0,
 }
 
 \seealso{
-  \code{\link[parallel]{mclapply}}, \code{\link[etm]{clos}}
+  \code{\link{mclapply}}, \code{\link[etm]{clos}}
 }
 \examples{
 if(require("kmi", quietly = TRUE)) {
