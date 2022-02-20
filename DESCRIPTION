@@ -1,7 +1,7 @@
 Package: etm
 Type: Package
 Title: Empirical Transition Matrix
-Version: 1.1.1
+Version: 1.1.2
 Authors@R: c(person("Arthur", "Allignol", role = "aut",
 	   email = "arthur.allignol@gmail.com"),
 	   person("Mark", "Clements", role = c("cre","aut"),
