@@ -6,3 +6,4 @@
 \.aux$
 \.tex$
 ^etmCIF_tutorial-.\.pdf$
+^MD5$
